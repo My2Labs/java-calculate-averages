@@ -10,10 +10,6 @@ class App {
     System.out.println("Highest Grade: " + highest);
     System.out.println("Lowest Grade: " + lowest);
 
-    for (int i = 0; i < grades.length; i++) {
-      Arrays.sort(grades);
-    }
-
     double median = 0;
     double pos1 = Math.floor((grades.length - 1.0) / 2.0);
     double pos2 = Math.ceil((grades.length - 1.0) / 2.0);
